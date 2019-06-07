@@ -1,0 +1,27 @@
+# Mysql Parameters
+MYSQL_ROOT_PASSWORD=Daem0nl0ve
+MYSQL_DATABASE=snipeit
+MYSQL_USER=snipeit
+MYSQL_PASSWORD=Daem0nl0ve
+
+# Email Parameters
+# - the hostname/IP address of your mailserver
+MAIL_PORT_587_TCP_ADDR=webmail.lpn.co.th
+#the port for the mailserver (probably 587, could be another)
+MAIL_PORT_587_TCP_PORT=587
+# the default from address, and from name for emails
+MAIL_ENV_FROM_ADDR=sgweerasak@lpn.co.th
+MAIL_ENV_FROM_NAME=Your Full Email Name
+# - pick 'tls' for SMTP-over-SSL, 'tcp' for unencrypted
+MAIL_ENV_ENCRYPTION=tcp
+# SMTP username and password
+MAIL_ENV_USERNAME=sgweerasak@lpn.co.th
+MAIL_ENV_PASSWORD=Daem0nl0ve
+
+# Snipe-IT Settings
+APP_ENV=production
+APP_DEBUG=false
+APP_KEY=base64:ynzQILYeFSkfxUS2XXLWbi1HztXK/n3Mw1bJKeGZTog=
+APP_URL=http://127.0.0.1:80
+APP_TIMEZONE=US/Pacific
+APP_LOCALE=en
