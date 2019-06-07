@@ -2,7 +2,7 @@
 
 ### วิธีการติดตั้งด้วย Docker
 
-### 0.Config file my_env_file
+### 0.แก้ Config file "my_env_file"
 
 ### 1.Pull Image
 docker pull snipe/snipe-it
