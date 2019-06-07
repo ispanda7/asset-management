@@ -18,6 +18,7 @@ docker pull snipe/snipe-it
     docker run --rm snipe/snipe-it
 
 จะได้ข้อความตัวอย่างประมาณนี้
+
 Please re-run this container with an environment variable $APP_KEY
 An example APP_KEY you could use is: 
 base64:D5oGA+zhFSVA3VwuoZoQ21RAcwBtJv/RGiqOcZ7BUvI=
