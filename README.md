@@ -5,7 +5,8 @@
 #### 1.แก้ Config file "my_env_file"
 
 #### 2.Pull Image Snipe-it
-docker pull snipe/snipe-it
+
+    docker pull snipe/snipe-it
 
 #### 3.Pull & Run Image Mysql
 
