@@ -2,19 +2,19 @@
 
 ### วิธีการติดตั้งด้วย Docker
 
-### 0.แก้ Config file "my_env_file"
+#### 1.แก้ Config file "my_env_file"
 
-### 1.Pull Image
+#### 2.Pull Image Snipe-it
 docker pull snipe/snipe-it
 
-### 2.Pull & Run Image Mysql
+#### 3.Pull & Run Image Mysql
 
     docker run \
      --name snipe-mysql \
      --env-file=my_env_file \
      --mount source=snipesql-vol,target=/var/lib/mysql -d -P mysql:5.6
 
-### 3.Gen APP_KEY
+#### 3.Gen APP_KEY
     docker run --rm snipe/snipe-it
 
 จะได้ข้อความตัวอย่างประมาณนี้
@@ -25,7 +25,7 @@ base64:D5oGA+zhFSVA3VwuoZoQ21RAcwBtJv/RGiqOcZ7BUvI=
 
  นำ APP_KEY ที่ได้ไปใส่ใน file  my_env_file
 
-### 4.Run Container snipeit ด้วย port 80
+#### 4.Run Container snipeit ด้วย port 80
     docker run \
      -d \
      -p 80:80 \
